@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MyDigi Bizz">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<suite-files>
+		<suite-file path="OverviewModule.xml" />
+		<suite-file path="BillsAndPaymentModule.xml" />
+		<!-- <suite-file path="ReportsAndAnalytics.xml" /> -->
+	</suite-files>
+</suite>

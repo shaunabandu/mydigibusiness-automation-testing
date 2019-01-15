@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyDigi Business Portal Automation Testing">
+	<test name="Test Case 1">
+		<parameter name="accountCode" value="201023444937610" />
+		<classes>
+			<class name="my.com.mydigibusiness.TestCases"></class>
+		</classes>
+	</test>
+</suite>
